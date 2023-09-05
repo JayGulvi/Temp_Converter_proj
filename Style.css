@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(./back.jpg);
+    color:black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+div{
+    margin-top: 80px;
+    height: 600px;
+    width: 500px;
+    border: 1px solid black;
+    display: inline;
+    text-align: center;
+    background-color: aqua;
+    background-image: url(./celsius-convert.jpg);
+    /* padding:30px ; */
+    box-sizing: border-box;
+    margin-bottom: 3cm;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 2px 4px 6px crimson;
+}
+
+
+
+ input {
+    display: block;
+    margin: 10px 0;
+    margin-left: 1.8cm;
+}
+
+input {
+    width: 200px;
+    cursor:pointer;
+    height: 35px;
+    margin-left: 140px;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: large;
+    font-weight: 800;
+}
+
+label{
+    font-size: larger;
+}
